@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form1{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.input1{
+  border-radius: 5px;
+  border: 0.2px solid rgb(188, 179, 179);
+  margin: 5px;
+  width: 400px;
+  height: 30px;
+}
+.input2{
+  background-color: rgba(9, 187, 24, 0.864);
   color: white;
+  width: 90px;
+  border-radius: 5px;
+  border: 0.2px solid rgb(188, 179, 179);
+  height: 30px;
+  cursor:pointer;
+}
+.input2:hover{
+  background-color:rgb(106, 106, 238);
+}
+.para{
+  color: rgb(230, 90, 90);
 }
 
-.App-link {
-  color: #61dafb;
+.mean{
+  display: flex;
+  justify-content: center;
+}
+.form2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+li{
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.input3{
+  background-color: rgba(238, 15, 15, 0.864);
+  color: white;
+  width: 60px;
+  border-radius: 5px;
+  border: 0.2px solid rgb(188, 179, 179);
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=“checkbox”]{
+  transform: scale(2);
+}
+
+span {
+  margin-left: 5px;
 }
